@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width"/>
 
-<title>テスト１　ライムコンサルタント</title>
+<title>ライム岩佐練習</title>
 
 <link rel="apple-touch-icon" href="app-icon.png"/>
 <meta property="og:image" content="ogp-image.jpg"/>
@@ -16,7 +16,9 @@
 window.onload = function() {
 	var map = initMap('mapid')
 	map.setZoom(16)
-	map.panTo([ 35.943560,136.188917 ]) // 鯖江駅
+	// map.panTo([ 35.943560,136.188917 ]) // 鯖江駅
+	map.panTo([ 33.7990877,132.778234 ]) // 松山IC	
+	
 }
 
 </script>
@@ -28,7 +30,7 @@ h1 { font-size: 5vw; margin: 0; }
 
 </style></head><body>
 
-<h1>私のマップ　ライムコンサルタント</h1>
+<h1>ライム岩佐練習　松山IC</h1>
 <div id="mapid"></div>
 
 <img id=qrcode><script>addEventListener("load", () => qrcode.src = "https://chart.apis.google.com/chart?chs=140x140&cht=qr&chl=" + encodeURIComponent(document.location))</script><br>
