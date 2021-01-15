@@ -19,6 +19,8 @@ window.onload = function() {
 	map.panTo([ 33.7990877,132.778234 ]) // 松山IC
 	
 	map.addIcon(33.7990877,132.778234,"松山まつやまIC","icon/megane.png",40) // 松山IC
+	
+	map.on("click", (e) => alert(e.latlng))
 }
 
 </script>
